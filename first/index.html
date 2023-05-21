@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>кОтОлог</title>
+</head>
+
+<body class="page">
+    <h1>Корзина</h1>
+    <main class="catalog page__catalog">
+        <article class="card">
+            <div class="card__info card__info_theme_dark">
+                <h3 class="card__title">Тренч</h3>
+                <p class="card__text">Цена: <span id='price1'>20000</span></p>
+                <p class="card__text">Состав: 86% вискоза, 14% полиамид</p>
+            </div>
+        </article>
+        <article class="card">
+            <div class="card__info card__info_theme_dark">
+                <h3 class="card__title">Брюки-бананы</h3>
+                <p class="card__text">Цена: <span id='price2'>40000</span></p>
+                <p class="card__text">Состав: 86% вискоза, 14% полиамид</p>
+            </div>
+        </article>
+        <article class="card">
+
+            <div class="card__info card__info_theme_dark">
+                <h3 class="card__title">Юбка</h3>
+                <p class="card__text">Цена: <span id='price3'>60000</span></p>
+                <p class="card__text">Состав: 86% вискоза, 14% полиамид</p>
+            </div>
+        </article>
+        <article class="card">
+
+            <div class="card__info card__info_theme_dark">
+                <h3 class="card__title">Платье</h3>
+                <p class="card__text">Цена: <span id='price4'>60000</span></p>
+                <p class="card__text">Состав: 86% вискоза, 14% полиамид</p>
+            </div>
+        </article>
+    </main>
+    <div id="end">
+        <div id="totalsum"></div>
+        <button id="button" onclick="Sale ()">Использовать купон на 20%</button>
+        <div id="sum20"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
